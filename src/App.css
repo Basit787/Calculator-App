@@ -82,7 +82,7 @@ body {
     width: 60px;
     border-radius: 50%;
     font-size: larger;
-    box-shadow:     4px 4px 10px cyan;
+    box-shadow: 4px 4px 10px cyan;
 }
 
 .button2:hover {
@@ -92,7 +92,7 @@ body {
     cursor: pointer;
 }
 
-.info{
+.info {
     color: white;
     text-align: center;
     text-shadow: 4px 4px 4px cyan;
@@ -107,34 +107,3 @@ body {
     font-weight: 700;
     box-shadow: 4px 4px 10px cyan
 } */
-
-@media only screen and (max-width: 600px) {
-    .card {
-        height: 100vh;
-        width: 100%;
-        border-radius: none;
-        overflow: hidden;
-        box-shadow: none;
-    }
-
-    .screen {
-        height: 290px;
-        width: 100%;
-        justify-content: baseline;
-        align-items: flex-end;
-    }
-
-    .screen .value {
-        font-size: 70px;
-    }
-
-    .button1 {
-        height: 100px;
-        width: 100px;
-    }
-
-    .button2 {
-        height: 100px;
-        width: 100px;
-    }
-}
