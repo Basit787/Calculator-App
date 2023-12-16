@@ -114,7 +114,6 @@ const Calculator = () => {
                             </div>
                         </div>
                     </div>
-                    <p className='info'>Made By Abdul-Basit</p>
                 </section>
             </div>
         </div>
