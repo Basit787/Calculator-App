@@ -1,1 +1,1 @@
-https://calculator-app-ten-chi.vercel.app/
+[Calculator URL](https://calculator-app-ten-chi.vercel.app/)
