@@ -21,4 +21,4 @@ export const buttonData = [
   "=",
 ];
 
-export const operators = ["+", "-", "*", "/", "%", "."];
+export const operators = ["+", "-", "*", "/", "%", ".", "AC", "Del"];
