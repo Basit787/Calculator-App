@@ -11,7 +11,7 @@ import { buttonData, operators } from "../utils/calculatorUtils";
 import { evaluateData } from "../helpers/calcHelper";
 
 const Calculator = () => {
-  const [value, setValue] = useState("");
+  const [value, setValue] = useState(0);
 
   const handleOperation = (variable) => {
     value !== "Error"
@@ -20,14 +20,14 @@ const Calculator = () => {
         : variable === "Del"
         ? setValue((prv) => prv.slice(0, -1))
         : variable === "AC"
-        ? setValue("")
+        ? setValue(0)
         : operators.includes(variable) && value.length === 0
-        ? setValue("")
+        ? setValue(0)
         : operators.includes(variable) &&
           operators.includes(value[value.length - 1])
         ? setValue(value.replace(value[value.length - 1], variable))
         : setValue((prv) => prv + variable)
-      : setValue("");
+      : setValue(0);
   };
 
   const isNumber = (val) => !isNaN(val) || val === "00";
